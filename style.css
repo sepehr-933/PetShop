@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans , sans-serif ;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    background-color: #F3F6FB;
+}
+.btn {
+    background-color: #4487FF;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.head {
+    background: url("./images/Group 76.png") no-repeat
+45% 120%/140% 150%;
+
+}
+.head nav {
+    display: flex;
+    justify-content: space-between;
+    padding:25px 50px 0 50px;
+}
+.head ul {
+    display: flex;
+    color: white;
+}
+.head ul li {
+    padding: 20px 15px 0 0;
+}
+.header-grid {
+    z-index: +1;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 5%;
+    padding:0 50px;
+}
+.header-grid>div h1 {
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+.header-grid>div p {
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.header-grid div {
+    padding: 90px;
+    color: white;
+}
+.firstSection {
+    background: url("./images/Group 75.png") no-repeat
+center center/165%;
+    position: relative;
+    padding: 50px;
+}
+.firstPart {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 20%;
+    padding: 30px;
+    width: 80%;
+    margin: 15% 10%;
+}
+.secDiv {
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-gap: 5%;
+}
+.secDiv>span {
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 3px 6px  lightslategray;
+}
+.firstPart h1 {
+    color: #FF6752;
+    font-weight: bolder;
+    padding-bottom: 25px;
+}
+.secDiv img {
+    margin-bottom: 10px;
+}
+.firstPart h3 {
+    color: #FF6752;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.firstPart p {
+    color: #808080;
+    padding-bottom: 25px;
+ }
+.firstPart input {
+    border:none;
+    padding: 15px;
+    border-radius: 100px;
+}
+.btn-orange {
+    border-radius: 50%;
+    background-color: #FF6752;
+    color: white;
+    padding: 15px;
+    border: none;
+    margin: 4px;
+}
+.firstDiv>div   {
+    border-radius: 100px;
+    background-color: white;
+    width: min-content;
+    display: flex;
+    box-shadow: 0px 3px 6px  lightslategray;
+}
+.bg-red {
+    background: url("./images/Group 83.png") no-repeat
+center center/130% 160%;
+}
+.bg-blue {
+    background: url("./images/Group 48.png") no-repeat
+    center center/130% 160%;
+}
+.secondPart {
+    display: grid;
+    grid-template-columns: 5% 28% 28% 28% 5%;
+    grid-gap: 2%;
+    width: 90%;
+    height: min-content;
+    margin-left: 5%;
+    text-align: center;
+}
+.secondPart>div img {
+    width:20% ;
+}
+.secondPart>div:nth-child(3) {
+   width: 160%;
+    height: 120%;
+   position: relative;
+    left: -30%;
+    top: -10%;
+    z-index: 1;
+}
+.secondPart div {
+    text-align: center;
+    border-radius: 20px;
+    padding:25px;
+    color: white;
+}
+.secondPart button {
+    height: min-content;
+
+}
+.secondPart>span {
+    padding-top: 6.5rem;
+}
+.secondPart h2 {
+    padding-bottom: 20px;
+}
+.secondPart p {
+    color: #F8F8F8;
+    font-weight: lighter;
+}
+.secondSection {
+    background: url("./images/Group 85.png") no-repeat
+220% 0/70% 70%,url("./images/Group 96.png") no-repeat
+-20% 100%/25% 25%;
+}
+.firstGrid {
+    display: grid;
+    grid-template-columns: 42% 42%;
+    grid-gap:16% ;
+    width: 65%;
+    margin-left: 17.5%;
+    margin-top: 200px;
+}
+.flexing {
+     margin-top: 5%;
+    background:url("./images/Path 248.png") no-repeat
+center center/80% 80%;
+}
+.flexing>div:nth-child(2) {
+   margin-left: 70%;
+}
+.flexing>div {
+    background-color: white;
+    border-radius: 7px;
+    padding: 25px;
+    width: min-content;
+    margin: 25px 0;
+}
+.flexing p {
+    text-align: center;
+}
+.repeated input {
+    border:none;
+    padding: 15px;
+    border-radius: 100px;
+}
+.repeated h3 {
+    color: #FF6752;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.repeated h1 {
+    color: #FF6752;
+    font-weight: bolder;
+    padding-bottom: 25px;
+}
+.repeated {
+    margin-top: 10%;
+}
+.repeated p {
+    padding-bottom: 25px;
+    color: #808080;
+    font-weight: lighter;
+}
+.fetch {
+    background: url("./images/Mask Group 18.png") no-repeat
+center center/120% 120%;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    border-radius: 20px;
+    padding: 35px;
+    color: white;
+}
+.fetch:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #4487FF;
+    opacity: 0.75;
+    border-radius: 20px;
+}
+.fetch *{
+    z-index: 1;
+}
+.fetch h1 {
+    padding-bottom: 25px;
+    color: #FFE530;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.fetch p{
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fetch img {
+    width: 300px;
+    height: 300px;
+}
+.fetch>div {
+    padding-left: 30px;
+}
+.fetch button {
+    background-color: white;
+    color: #FE6845;
+    border:none;
+    padding: 15px 25px;
+    font-weight: bold;
+    border-radius: 100px;
+    margin: 25px 0;
+}
+.thirdSection {
+    width: 85%;
+
+    text-align: center;
+    margin: 200px 7.5%;
+}
+.thirdSection>div {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4,1fr);
+}
+.thirdSection h3 {
+    color: #B1BBCD;
+    padding-bottom: 30px;
+}
+.thirdSection>div>div {
+    text-align: center;
+}
+
+footer {
+background: url("./images/Path 272.png") no-repeat
+50% -30%/120% 120%;
+    padding-top: 50px;
+}
+footer>div {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 100px;
+}
+footer h3 {
+    color: #FFE530;
+    padding-bottom: 20px;
+}
+footer p {
+    color: white;
+    padding-bottom: 15px;
+}
+footer input {
+    border: none;
+    border-radius: 100px;
+    padding-left: 30px;
+}
+footer .social img {
+    margin: 10px;
+}
+/*media queries*/
+@media only screen and (max-width: 768px) {
+    .header-grid {
+        grid-template-columns:100%;
+    }
+    .header-grid>div {
+        color: black;
+    }
+    .firstPart {
+        grid-template-columns: 100%;
+        text-align: center;
+        margin-bottom: 40%;
+    }
+    .firstDiv>div  {
+        margin-left: 25%;
+    }
+    .secondPart {
+        grid-template-columns: 100%;
+    }
+    .secondPart>div:nth-child(3) {
+        width: 100%;
+        left: 0;
+        height: 100%;
+        top: 0;
+    }
+    .secondPart>span{
+        display: none;
+    }
+    .thirdSection>div {
+        grid-template-columns: 50% 50%;
+        grid-gap:5% 0 ;
+    }
+}
+@media only screen and (max-width: 668px) {
+    .header-grid {
+        grid-template-columns:100%;
+    }
+    .head {
+        background-image:linear-gradient(#FEB53A,#D65C15) ;
+        text-align: center;
+    }
+    .header-grid>div {
+        padding: 0;
+        color: #F8F8F8;
+    }
+    .flexing {
+        margin-left: -20%;
+    }
+    .fetch>div {
+        padding-left: 0;
+    }
+    .btn {
+        width: 100%;
+    }
+    .firstPart {
+        grid-template-columns: 100%;
+        text-align: center;
+        margin-bottom: 40%;
+    }
+    .secondPart {
+        grid-template-columns: 100%;
+    }
+    .secondPart>div:nth-child(3) {
+        width: 100%;
+        left: 0;
+        height: 100%;
+        top: 0;
+    }
+    .secondPart>span{
+        display: none;
+    }
+    .thirdSection>div {
+        grid-template-columns: 100%;
+    }
+    .secDiv {
+        grid-template-columns: 100%;
+        height: 1000px;
+    }
+    .firstGrid {
+        grid-template-columns: 100%;
+    }
+    .fetch {
+        flex-direction: column;
+        text-align: center;
+    }
+    .fetch img {
+        width: 100%;
+        height: 100%;
+    }
+    footer>div {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    footer .social {
+        margin: 10px;
+    }
+    footer {
+        background: #FF6752;
+    }
+    nav {
+        flex-direction: column;
+    }
+    ul {
+        flex-direction: column;
+    }
+    .firstDiv>div {
+        margin-left: -20%;
+    }
+    .firstPart {
+        height: 1500px;
+        grid-gap: 0;
+    }
+    .container {
+        margin-left: -20%;
+    }
+
+}
+
+
+
